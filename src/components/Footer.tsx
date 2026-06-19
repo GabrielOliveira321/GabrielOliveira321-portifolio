@@ -6,14 +6,12 @@ export default function Footer() {
     <footer className="py-8 px-6 border-t border-dark-border bg-dark-card/30">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          {/* Left */}
           <div className="flex items-center gap-2 text-sm text-dark-muted">
             <span>© 2025 {personalInfo.name}. Feito com</span>
             <FiHeart className="w-3.5 h-3.5 text-primary fill-primary" />
             <span>e React + TypeScript</span>
           </div>
 
-          {/* Social */}
           <div className="flex items-center gap-3">
             <a
               href={personalInfo.github}

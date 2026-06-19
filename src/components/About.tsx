@@ -19,7 +19,6 @@ export default function About() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Education */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -46,7 +45,6 @@ export default function About() {
             ))}
           </motion.div>
 
-          {/* Certifications */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}

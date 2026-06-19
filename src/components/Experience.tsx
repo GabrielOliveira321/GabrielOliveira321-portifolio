@@ -19,7 +19,6 @@ export default function Experience() {
         </motion.div>
 
         <div className="relative">
-          {/* Timeline line */}
           <div className="absolute left-6 top-0 bottom-0 w-px bg-gradient-to-b from-primary via-accent to-transparent hidden md:block" />
 
           {experiences.map((exp, i) => (
@@ -31,11 +30,9 @@ export default function Experience() {
               transition={{ duration: 0.6, delay: i * 0.15 }}
               className="relative mb-12 last:mb-0 md:pl-16"
             >
-              {/* Timeline dot */}
               <div className="absolute left-[18px] top-6 w-4 h-4 rounded-full bg-primary border-4 border-dark-bg hidden md:block" />
 
               <div className="p-6 rounded-2xl bg-gradient-card border border-dark-border glow-effect hover:border-primary/30 transition-all duration-300">
-                {/* Header */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
                   <div className="flex items-center gap-3">
                     <div className="p-2 rounded-xl bg-primary/10 text-primary">
@@ -57,7 +54,6 @@ export default function Experience() {
 
                 <p className="text-sm text-dark-muted mb-4">{exp.location}</p>
 
-                {/* Highlights */}
                 <ul className="space-y-2.5">
                   {exp.highlights.map((h, j) => (
                     <li key={j} className="flex items-start gap-3 text-sm text-dark-muted">

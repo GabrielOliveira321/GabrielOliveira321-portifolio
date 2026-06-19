@@ -18,8 +18,8 @@ export const experiences = [
     location: "Home Office (São Paulo, SP)",
     period: "Junho de 2025 – Atual",
     highlights: [
-      "Desenvolvi mais de 15 interfaces responsivas para o projeto Visual Crawler, otimizando a visualização de dados para a equipe",
-      "Construí uma biblioteca com mais de 30 componentes de interface (UI) reutilizáveis utilizando Styled Components, acelerando o fluxo de desenvolvimento da equipe",
+      "Desenvolvi o projeto Visual Crawler: construí interfaces completas do zero com base em especificações de clientes, integrando front-end e back-end via APIs RESTful.",
+      "Construí uma biblioteca com componentes de interface (UI) reutilizáveis utilizando Styled Components, acelerando o fluxo de desenvolvimento da equipe",
       "Implementei arquiteturas limpas com navegação dinâmica utilizando React Router e gerenciamento de estado global com Context API",
       "Assegurei alta eficiência de UI/UX e interatividade fluida através de design responsivo avançado com Flexbox e CSS Grid",
     ],
@@ -90,28 +90,30 @@ export const projects = [
   {
     title: "Visual Crawler",
     description:
-      "Sistema de visualização de dados com mais de 15 interfaces responsivas. otimizado para alta performance com React Hooks e integrações de REST APIs.",
+      "Sistema de visualização de dados com interfaces responsivas. otimizado para alta performance com React Hooks e integrações de REST APIs.",
     tech: ["React", "TypeScript", "REST API", "Styled Components"],
     highlights: [
-      "+15 interfaces responsivas",
-      "15% mais rápido em visualização de dados",
-      "+30 componentes reutilizáveis",
+      "interfaces responsivas",
+      "mais rápido em visualização de dados",
+      "componentes reutilizáveis",
     ],
-    link: "https://github.com/Gabriel-Oliveira321",
+    link: "https://visualcrawler.com.br/home",
     featured: true,
+    code: "",
   },
   {
-    title: "Biblioteca de Componentes UI",
+    title: "Eventify",
     description:
-      "Biblioteca com mais de 30 componentes de interface reutilizáveis desenvolvida com Styled Components, utilizada pela equipe de desenvolvimento.",
+      "Eventify é uma plataforma completa para criar, divulgar e gerenciar eventos de forma simples e eficiente. Conectamos organizadores e participantes.",
     tech: ["React", "TypeScript", "Styled Components"],
     highlights: [
-      "+30 componentes",
-      "20% menos tempo de desenvolvimento",
+      "Componentes completos",
+      "Redução detempo de desenvolvimento",
       "Design System completo",
     ],
-    link: "https://github.com/Gabriel-Oliveira321",
+    link: "https://gabrieloliveira321.github.io/Eventify/",
     featured: true,
+    code: "https://github.com/GabrielOliveira321/Eventify",
   },
   {
     title: "Portfólio Pessoal",
@@ -123,8 +125,9 @@ export const projects = [
       "Animações suaves",
       "Dark mode",
     ],
-    link: "https://github.com/Gabriel-Oliveira321",
+    link: "https://gabrieloliveira321.github.io/GabrielOliveira321-portifolio/",
     featured: true,
+    code: "https://github.com/GabrielOliveira321/GabrielOliveira321-portifolio",
   },
 ];
 

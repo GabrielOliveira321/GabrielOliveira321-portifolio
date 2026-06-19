@@ -46,7 +46,6 @@ export default function Contact() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Contact info */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -100,7 +99,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Social */}
             <div className="flex gap-3 pt-4">
               <a
                 href={personalInfo.linkedin}
@@ -123,7 +121,6 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* Contact form */}
           <motion.form
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}

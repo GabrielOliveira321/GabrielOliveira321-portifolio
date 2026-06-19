@@ -46,7 +46,6 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo */}
         <a
           href="#"
           className="text-xl font-bold text-gradient hover:opacity-80 transition-opacity"
@@ -54,7 +53,6 @@ export default function Navbar() {
           GR
         </a>
 
-        {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-1">
           {navLinks.map((link) => (
             <a
@@ -71,7 +69,6 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={() => setIsMobileOpen(!isMobileOpen)}
           className="md:hidden p-2 rounded-lg text-dark-muted hover:text-primary hover:bg-dark-card transition-all"
@@ -87,7 +84,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Nav */}
       {isMobileOpen && (
         <motion.div
           id="mobile-menu"
