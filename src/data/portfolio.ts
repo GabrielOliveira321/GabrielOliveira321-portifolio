@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Gabriel Raitz",
   role: "Desenvolvedor FullStack",
   subtitle: "Focado em Front-end",
-  location: "Caetanópolis, MG",
+  location: "São Paulo, São Paulo",
   email: "gabrielreitz23@gmail.com",
   phone: "(31) 99089-3260",
   linkedin: "https://linkedin.com/in/gabriel-oliveira-b41202236/",
