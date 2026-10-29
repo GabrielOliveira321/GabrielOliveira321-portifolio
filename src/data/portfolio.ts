@@ -1,38 +1,29 @@
 export const personalInfo = {
   name: "Gabriel Raitz",
-  role: "Desenvolvedor FullStack",
-  subtitle: "Focado em Front-end",
-  location: "São Paulo, São Paulo",
+  role: "Desenvolvedor Full Stack",
+  subtitle: "React • Node.js • TypeScript",
+  location: "São Paulo, SP",
   email: "gabrielreitz23@gmail.com",
   phone: "(31) 99089-3260",
   linkedin: "https://linkedin.com/in/gabriel-oliveira-b41202236/",
   github: "https://github.com/GabrielOliveira321",
   summary:
-    "Desenvolvedor Front-end com 2 anos de experiência profissional em empresas de tecnologia. Atuo no desenvolvimento de interfaces modernas e responsivas com React e TypeScript, integrando REST APIs e construindo bibliotecas de componentes reutilizáveis. Experiência consolidada com Node.js, Docker e controle de versão com Git/GitLab em ambientes ágeis.",
+    "Desenvolvedor com foco em aplicações web utilizando React, Node.js e TypeScript. Experiência na criação de interfaces responsivas, integração com APIs REST e desenvolvimento de componentes reutilizáveis. Atuação na manutenção de sistemas, correção de bugs e colaboração em equipe. Formado em Análise e Desenvolvimento de Sistemas.",
 };
 
 export const experiences = [
   {
-    title: "Desenvolvedor Front-end",
-    company: "Antarez",
-    location: "Home Office (São Paulo, SP)",
-    period: "Junho de 2025 – Atual",
-    highlights: [
-      "Desenvolvi o projeto Visual Crawler: construí interfaces completas do zero com base em especificações de clientes, integrando front-end e back-end via APIs RESTful.",
-      "Construí uma biblioteca com componentes de interface (UI) reutilizáveis utilizando Styled Components, acelerando o fluxo de desenvolvimento da equipe",
-      "Implementei arquiteturas limpas com navegação dinâmica utilizando React Router e gerenciamento de estado global com Context API",
-      "Assegurei alta eficiência de UI/UX e interatividade fluida através de design responsivo avançado com Flexbox e CSS Grid",
-    ],
-  },
-  {
     title: "Estagiário Desenvolvedor Front-end",
     company: "Antarez",
-    location: "Remoto (São Paulo, SP)",
-    period: "Junho de 2024 – Junho de 2025",
+    location: "Remoto - São Paulo, SP",
+    period: "Agosto de 2025 – Atual",
     highlights: [
-      "Desenvolvi e refinei componentes interativos em React utilizando TypeScript, JavaScript (ES6+), HTML5 e CSS3, alinhados aos protótipos do Figma",
-      "Reduzi significativamente os relatórios de erros em produção através da implementação de testes funcionais estruturados",
-      "Atuei em ambiente colaborativo utilizando Git, GitHub e GitLab para controle de versão, code review e metodologias ágeis (Scrum/Kanban)",
+      "Desenvolvimento e manutenção de interfaces responsivas com React (projeto Visual Crawler), seguindo o design e os requisitos do cliente.",
+      "Integração com APIs REST para comunicação entre front-end e back-end.",
+      "Criação de componentes reutilizáveis, navegação com React Router e gerenciamento de estado com Context API.",
+      "Estilização com Flexbox, CSS Grid e Styled Components.",
+      "Realização de testes funcionais, correção de bugs e melhorias na experiência do usuário.",
+      "Colaboração com a equipe na revisão de código e no controle de versão com Git, GitHub e GitLab.",
     ],
   },
 ];
@@ -40,17 +31,17 @@ export const experiences = [
 export const education = [
   {
     degree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
-    institution: "Universidade Pitágoras Unopar Anhanguera",
-    location: "Paraopeba, MG",
-    conclusion: "Junho de 2024",
+    institution: "UNOPAR - Universidade Norte do Paraná",
+    location: "São Paulo, SP",
+    conclusion: "Junho de 2024 (Ago/2022 – Jun/2024)",
   },
 ];
 
 export const certifications = [
   {
-    name: "Certificação Profissional: Desenvolvedor FullStack",
-    institution: "FullCycle",
-    date: "Janeiro de 2026",
+    name: "Full Cycle 3.0",
+    institution: "Full Cycle",
+    date: "Jan/2025 – Jan/2026 — Concluído",
   },
   {
     name: "Curso de TypeScript Avançado",
@@ -78,11 +69,11 @@ export const skills = {
     { name: "REST APIs" },
   ],
   tools: [
-    { name: "Docker" },
     { name: "Git" },
-    { name: "GitLab" },
     { name: "GitHub" },
+    { name: "GitLab" },
     { name: "Figma" },
+    { name: "Linux" },
   ],
 };
 
@@ -133,5 +124,5 @@ export const projects = [
 
 export const languages = [
   { name: "Português", level: "Nativo" },
-  { name: "Inglês", level: "Intermediário (B1+) — Em progresso para fluência" },
+  { name: "Inglês", level: "B1 (Intermediário)" },
 ];
