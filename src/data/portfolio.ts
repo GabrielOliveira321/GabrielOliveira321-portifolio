@@ -1,14 +1,14 @@
 export const personalInfo = {
   name: "Gabriel Raitz",
-  role: "Desenvolvedor Full Stack",
-  subtitle: "React • Node.js • TypeScript",
+  role: "Desenvolvedor Front-end Júnior",
+  subtitle: "React • TypeScript",
   location: "São Paulo, SP",
   email: "gabrielreitz23@gmail.com",
-  phone: "(31) 99089-3260",
+  phone: "+55 (31) 99089-3260",
   linkedin: "https://linkedin.com/in/gabriel-oliveira-b41202236/",
   github: "https://github.com/GabrielOliveira321",
   summary:
-    "Desenvolvedor com foco em aplicações web utilizando React, Node.js e TypeScript. Experiência na criação de interfaces responsivas, integração com APIs REST e desenvolvimento de componentes reutilizáveis. Atuação na manutenção de sistemas, correção de bugs e colaboração em equipe. Formado em Análise e Desenvolvimento de Sistemas.",
+    "Desenvolvedor Front-end com experiência profissional em React desde agosto de 2025. Atuação em interfaces responsivas, integração com APIs REST, componentes reutilizáveis e gerenciamento de estado com Context API. Vivência em testes funcionais, correção de bugs e revisão de código em equipe. Formado em Análise e Desenvolvimento de Sistemas, com conhecimentos em TypeScript, Node.js, NestJS, SQL e MySQL.",
 };
 
 export const experiences = [
